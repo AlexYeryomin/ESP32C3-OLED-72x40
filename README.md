@@ -1,4 +1,4 @@
-Some ESP32C3 development boards are equpped with OLED display, 0.42 inch, 72x40 pixels. This teeny tiny display could be convenient to show some measurements from the sensors like pressure or temperature, or, as I used it, to show the max altitude of the water rockets.
+Some ESP32C3 development boards are equipped with OLED display, 0.42 inch, 72x40 pixels. This teeny tiny display could be convenient to show some measurements from the sensors like pressure or temperature, or, as I used it, to show the max altitude of the water rockets.
 
 This is a short demo on these borads. The sample is written in Micropython, just to show that this OLED can be easily controlled from Micropython. Don't forget to install SH1106 driver for MicroPython.
 https://www.youtube.com/watch?v=9VG_HhqDWk4
