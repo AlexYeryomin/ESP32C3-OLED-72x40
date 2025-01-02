@@ -1,3 +1,6 @@
+# Copyright (c) 2025 Alex Yeryomin
+# The demo program for ESP32-С3 with OLED display 72x40 pixels.
+
 #include <Wire.h>
 #include <U8g2lib.h>
 
