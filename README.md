@@ -7,5 +7,5 @@ I also tested this board in Arduino IDE, a similar code but written in C works f
 
 The board is available on AliExpress (search for 'ESP32-C3 OLED', there are tons of them).
 
-
+![ESP32C3-OLED-72x40](ESP32C3-OLED-72x40.png)
 
