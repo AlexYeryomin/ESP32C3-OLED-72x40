@@ -5,15 +5,13 @@
 #include <U8g2lib.h>
 
 // Pins: clock=6, data=5.
-U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, U8X8_PIN_NONE, 6, 5);
+U8G2_SSD1306_72X40_ER_F_HW_I2C u8g2(U8G2_R0, U8X8_PIN_NONE, 6, 5);
 
 // SSD1306 controller has 132x64 pixel buffer
 const unsigned int BufferWidth  = 132;
 const unsigned int BufferHeight = 64;
 const unsigned int ScreenWidth  = 72;
 const unsigned int ScreenHeight = 40;
-const unsigned int xOffset = (BufferWidth - ScreenWidth) / 2;
-const unsigned int yOffset = (BufferHeight - ScreenHeight) / 2;
  
 void setup(void) {
   delay(1000);
@@ -29,4 +27,3 @@ void setup(void) {
  
 void loop(void) {
 }
- 
