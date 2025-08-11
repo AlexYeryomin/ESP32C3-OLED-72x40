@@ -12,8 +12,8 @@ const unsigned int BufferWidth  = 132;
 const unsigned int BufferHeight = 64;
 const unsigned int ScreenWidth  = 72;
 const unsigned int ScreenHeight = 40;
-const unsigned int xOffset = (BufferWidth - ScreenWidth) / 2;
-const unsigned int yOffset = (BufferHeight - ScreenHeight) / 2;
+const unsigned int xOffset = 28;
+const unsigned int yOffset = 24;
  
 void setup(void) {
   delay(1000);
@@ -30,3 +30,4 @@ void setup(void) {
 void loop(void) {
 }
  
+
